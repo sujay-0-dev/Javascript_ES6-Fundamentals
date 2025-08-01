@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - ES6+ Fundamentals Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Day 1/120 - ES6+ Fundamentals</h1>
+            <p>Modern JavaScript Feature Showcase</p>
+        </header>
+
+        <div class="features-grid">
+            <!-- Arrow Functions -->
+            <div class="feature-card">
+                <h3>🏹 Arrow Functions</h3>
+                <div class="demo">
+                    <button onclick="arrowFunctionDemo()">Test Arrow Functions</button>
+                    <div id="arrow-output" class="output"></div>
+                </div>
+            </div>
+
+            <!-- Destructuring -->
+            <div class="feature-card">
+                <h3>📦 Destructuring</h3>
+                <div class="demo">
+                    <button onclick="destructuringDemo()">Test Destructuring</button>
+                    <div id="destructuring-output" class="output"></div>
+                </div>
+            </div>
+
+            <!-- Spread Operator -->
+            <div class="feature-card">
+                <h3>📤 Spread Operator</h3>
+                <div class="demo">
+                    <button onclick="spreadDemo()">Test Spread</button>
+                    <div id="spread-output" class="output"></div>
+                </div>
+            </div>
+
+            <!-- Template Literals -->
+            <div class="feature-card">
+                <h3>📝 Template Literals</h3>
+                <div class="demo">
+                    <input type="text" id="name-input" placeholder="Enter your name">
+                    <button onclick="templateDemo()">Generate Message</button>
+                    <div id="template-output" class="output"></div>
+                </div>
+            </div>
+
+            <!-- Let & Const -->
+            <div class="feature-card">
+                <h3>🔒 Let & Const</h3>
+                <div class="demo">
+                    <button onclick="letConstDemo()">Test Let & Const</button>
+                    <div id="letconst-output" class="output"></div>
+                </div>
+            </div>
+
+            <!-- Default Parameters -->
+            <div class="feature-card">
+                <h3>⚙️ Default Parameters</h3>
+                <div class="demo">
+                    <input type="number" id="age-input" placeholder="Enter age (optional)">
+                    <button onclick="defaultParamsDemo()">Create User</button>
+                    <div id="params-output" class="output"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="challenge-section">
+            <h2>🎯 ES6+ Challenges Completed</h2>
+            <div class="challenges-grid" id="challenges-grid">
+                <!-- Challenges will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
